@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading"><h1>Enter User Details</h1></div>
+        <div class="form-div">
+        <form class="formData">
+            <p>Name</p>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            
+            <p>Mobile Number</p>
+            <input type="tel" id="number" placeholder="Enter Your Phone Number" pattern="[0-9]{10}" required>
+            
+            <p>Village Name</p>
+            <input type="text" id="village" placeholder="Enter Your Village Name" required>
+            
+            <p>City</p>
+            <input type="text" id="city" placeholder="Enter Your City" required>
+             <br><br>
+            <button class="submit-Data">Submit</button> 
+            
+        </form>
+        </div>
+        <button class="details">View Details</button>
+        <div class="display-details"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

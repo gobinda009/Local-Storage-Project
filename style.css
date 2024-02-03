@@ -1,0 +1,47 @@
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 0 5px 8px;
+    background-color: cadetblue;
+    padding: 30px;
+    color: white;
+    height: 500px;
+    width: 600px;
+}
+p{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.details{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+input{
+    height: 35px;
+}
+.submit-Data{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.result{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 30px;
+}
+.display-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: green 0 4px 6px;
+}
